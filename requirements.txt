@@ -1,0 +1,10 @@
+library yang digunakan untuk analisis :
+
+-streamlit
+-pandas
+-numpy
+-matplotlib
+-seaborn
+-scikit-learn
+-plotly
+-streamlit-option-menu
