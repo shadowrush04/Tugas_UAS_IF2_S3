@@ -164,7 +164,7 @@ elif selected == "P2: Tren 3 bulanan":
     st.markdown("""
    Hasil Analisis:
     - Tren meningkat dari awal tahun menuju pertengahan tahun.
-    - Puncak sekitar musim panas/gugur,lalu turun lagi di akhir tahun.
+    - Puncak biasanya di musim panas atau gugur,kemudian turun lagi diakhir tahun oktober-desember
     """)
 
 
@@ -377,6 +377,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
