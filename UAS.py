@@ -67,17 +67,6 @@ if selected == "Kelompok":
         - 10124059 – Yusya Raditya(membuat                      (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
         - 10124473 – Bayu Ilham Samudra                         (-)
         """)
-    
-    st.subheader("Ringkasan Data")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.write("Dataset `day.csv`")
-        st.write(day.head())
-        st.write(day.describe(include="all"))
-    with col2:
-        st.write("Dataset `hour.csv`")
-        st.write(hour.head())
-        st.write(hour.describe(include="all"))
 
 #halaman overview
 elif selected == "Overview":
@@ -91,6 +80,16 @@ elif selected == "Overview":
     5. Hubungan **suhu (`temp`)** dengan jumlah penyewa (`cnt`) (day.csv).
     6. Distribusi **suhu (`temp`)** sepanjang pengamatan (day.csv).
     """)
+    st.subheader("Ringkasan Data")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("Dataset `day.csv`")
+        st.write(day.head())
+        st.write(day.describe(include="all"))
+    with col2:
+        st.write("Dataset `hour.csv`")
+        st.write(hour.head())
+        st.write(hour.describe(include="all"))
 
 
 
@@ -360,12 +359,12 @@ elif selected == "Saran dari Hasil Analisis":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("")
         st.markdown("""
         - Ketika jam sibuk lebih baik tambah unit,dan ketika hujan berikan diskon karena di saat kondisi itu akan sepi  
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
