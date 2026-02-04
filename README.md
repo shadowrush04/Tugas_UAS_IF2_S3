@@ -27,7 +27,10 @@ Proyek ini merupakan analisis data Bike Sharing Dataset menggunakan Python dan S
 
 Dashboard dapat diakses melalui:
 
-- Streamlit App: https://tugasuasif2s3-qde6chk35q854mbod6p2a5.streamlit.app/
+- Streamlit : https://tugasuasif2s3-qde6chk35q854mbod6p2a5.streamlit.app/
+
+## Penjelasan 
+- Youtube : https://youtu.be/N_R8D0tbOv4
 
 ---
 
@@ -40,6 +43,14 @@ Dashboard dapat diakses melalui:
 5. Hubungan suhu (temp) dengan jumlah penyewa (cnt) (day.csv).
 6. Distribusi suhu (temp)sepanjang pengamatan (day.csv).
 
+## Tahapan Analisis
+Analisis dilakukan melalui beberapa tahapan:  
+- Data Understanding & Wrangling (memuat dataset day/hour, pengecekan struktur, dan pembersihan sederhana).
+- Exploratory Data Analysis (EDA) untuk menjawab pertanyaan P1–P6.
+- Visualization & Explanatory Analysis menggunakan grafik distribusi, tren, sebaran musim, dan korelasi suhu–penyewa.
+- Penerapan analisis lanjutan (korelasi, regresi linear multivariabel, dan clustering K-Means pada data per jam).
+- Pembuatan Dashboard Interaktif menggunakan Streamlit berbasis hasil EDA dan pemodelan.
+bisa dibuka pada file di repository ini
 ---
 
 ## Overview
