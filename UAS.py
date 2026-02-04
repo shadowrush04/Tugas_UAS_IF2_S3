@@ -67,19 +67,7 @@ if selected == "Kelompok":
         - 10124059 – Yusya Raditya(membuat                      (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
         - 10124473 – Bayu Ilham Samudra                         (-)
         """)
-
-
-    st.subheader("Pertanyaan")
-    st.markdown("""
-    1. Distribusi jumlah penyewa (`cnt`) setiap **jam** (hour.csv).
-    2. Tren jumlah penyewa per **3 bulan** tahun 2011–2012 (day.csv).
-    3. Rata‑rata jumlah penyewa per **hari dalam seminggu** (day.csv).
-    4. Perbedaan sebaran jumlah penyewa (`cnt`) berdasarkan **musim** (day.csv).
-    5. Hubungan **suhu (`temp`)** dengan jumlah penyewa (`cnt`) (day.csv).
-    6. Distribusi **suhu (`temp`)** sepanjang pengamatan (day.csv).
-    """)
     
-
     st.subheader("Ringkasan Data")
     col1, col2 = st.columns(2)
     with col1:
@@ -94,6 +82,15 @@ if selected == "Kelompok":
 #halaman overview
 elif selected == "Overview":
     st.title("Proyek Analisis Data: Bike Sharing Dataset")
+    st.subheader("Pertanyaan")
+    st.markdown("""
+    1. Distribusi jumlah penyewa (`cnt`) setiap **jam** (hour.csv).
+    2. Tren jumlah penyewa per **3 bulan** tahun 2011–2012 (day.csv).
+    3. Rata‑rata jumlah penyewa per **hari dalam seminggu** (day.csv).
+    4. Perbedaan sebaran jumlah penyewa (`cnt`) berdasarkan **musim** (day.csv).
+    5. Hubungan **suhu (`temp`)** dengan jumlah penyewa (`cnt`) (day.csv).
+    6. Distribusi **suhu (`temp`)** sepanjang pengamatan (day.csv).
+    """)
 
 
 
@@ -369,6 +366,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
