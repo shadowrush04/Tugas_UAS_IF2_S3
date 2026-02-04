@@ -65,10 +65,12 @@ if selected == "Kelompok":
         - 10124080 – Advent G. Sihombing (membuat hasil analisis dari pertanyaan 2 dan ringkasan data "overview" di file pra uts dan uas)
         - 10124079 – Andi Muhamad Hakim R.M (membuat hasil analisi dari pertanyaan 1 dan saran dari hasil analisis di file pra uts dan uas)
         - 10124059 – Yusya Raditya(membuat (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
-        - 10124473 – Bayu Ilham Samudra(-)  
+        - 10124473 – Bayu Ilham Samudra(-)
+        """)
 
 
-    - Pertanyaan :
+    st.subheader("Pertanyaan")
+    st.markdown("""
     1. Distribusi jumlah penyewa (`cnt`) setiap **jam** (hour.csv).
     2. Tren jumlah penyewa per **3 bulan** tahun 2011–2012 (day.csv).
     3. Rata‑rata jumlah penyewa per **hari dalam seminggu** (day.csv).
@@ -76,6 +78,7 @@ if selected == "Kelompok":
     5. Hubungan **suhu (`temp`)** dengan jumlah penyewa (`cnt`) (day.csv).
     6. Distribusi **suhu (`temp`)** sepanjang pengamatan (day.csv).
     """)
+    
 
     st.subheader("Ringkasan Data")
     col1, col2 = st.columns(2)
@@ -366,6 +369,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
