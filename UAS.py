@@ -90,7 +90,7 @@ if selected == "Kelompok":
 
 #halaman overview
 elif selected == "Overview":
-st.title("Proyek Analisis Data: Bike Sharing Dataset")
+    st.title("Proyek Analisis Data: Bike Sharing Dataset")
 
 
 
@@ -366,6 +366,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
