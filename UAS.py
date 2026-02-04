@@ -60,11 +60,11 @@ if selected == "Kelompok":
     st.markdown("""
     - Kelas : IF-2  
     - Anggota:  
-        - 10124056 – Moch. Albany Alfachrezi Syechan (membuat streamlit,membuat analisis pertanyaan 3 dan 4 di file pra uts dan uas)  
-        - 10124044 – Ichza Mutawalli Razzaq (membuat hasil analisis dari perbandingan data,dan pertanyaan 2 di file uas dan pra uts)  
-        - 10124080 – Advent G. Sihombing (membuat hasil analisis dari pertanyaan 2 dan ringkasan data "overview" di file pra uts dan uas)
-        - 10124079 – Andi Muhamad Hakim R.M (membuat hasil analisi dari pertanyaan 1 dan saran dari hasil analisis di file pra uts dan uas)
-        - 10124059 – Yusya Raditya(membuat (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
+        - 10124056 – Moch. Albany Alfachrezi Syechan            (membuat streamlit,membuat analisis pertanyaan 3 dan 4 di file pra uts dan uas)  
+        - 10124044 – Ichza Mutawalli Razzaq                     (membuat hasil analisis dari perbandingan data,dan pertanyaan 2 di file uas dan pra uts)  
+        - 10124080 – Advent G. Sihombing                        (membuat hasil analisis dari pertanyaan 2 dan ringkasan data "overview" di file pra uts dan uas)
+        - 10124079 – Andi Muhamad Hakim R.M                     (membuat hasil analisi dari pertanyaan 1 dan saran dari hasil analisis di file pra uts dan uas)
+        - 10124059 – Yusya Raditya(membuat                      (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
         - 10124473 – Bayu Ilham Samudra(-)
         """)
 
@@ -369,6 +369,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
