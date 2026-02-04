@@ -123,7 +123,7 @@ elif selected == "P2: Tren 3 bulanan":
     agregasi 3 bulanan.
     """)
 
-    #data day 3 bulanan yaitu 1: Jan–Mar, 2: Apr–Jun, 3: Jul–Sep, 4: Okt–Des
+    #data day 3 bulanan yaitu 1: Jan–Mar,2: Apr–Jun,3: Jul–Sep, 4: Okt–Des
     day_q = day.copy()
     day_q["quarter3"] = ((day_q["mnth"] - 1) // 3) + 1
     agg_q = (
@@ -227,7 +227,7 @@ elif selected == "P4: Sebaran per musim":
 
 
 #Hubungan suhu temp dengan cnt
-elif selected == "P5: Korelasi suhu–cnt":
+elif selected == "P5: Korelasi suhu dan cnt":
     st.title("P5 – Apakah Suhu temp Berhubungan dengan Jumlah Penyewa (cnt)?")
 
 
@@ -364,6 +364,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
