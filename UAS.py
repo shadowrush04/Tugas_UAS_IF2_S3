@@ -43,7 +43,7 @@ with st.sidebar:
          "P2: Tren 3 bulanan",
          "P3: Rata‑rata per minggu",
          "P4: Sebaran per musim",
-         "P5: Korelasi suhu–cnt",
+         "P5: Korelasi suhu dan cnt",
          "P6: Distribusi suhu",
          "Perbandingan Antar Data",
          "Saran dari Hasil Analisis"],
@@ -364,6 +364,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
