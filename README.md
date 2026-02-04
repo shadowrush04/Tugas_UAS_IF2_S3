@@ -195,3 +195,26 @@ Beberapa rekomendasi yang diambil dari hasil eksplorasi:
 - streamlit-option-menu
 
 ---
+## Struktur Repository
+
+- `Dashboard.png`  
+  Screenshot tampilan dashboard Streamlit.
+- `README.md`  
+  Dokumentasi proyek (deskripsi, tahapan analisis, cara menjalankan, dll.).
+  
+- `Tugas1_Bike Sharing Dataset_IF-2_10124056-checkpoint.ipynb`  
+  Notebook analisis data Bike Sharing (EDA dan perhitungan).
+  
+- `UAS.py`  
+  Script utama Streamlit untuk menjalankan dashboard.
+
+- `day.csv`  
+  Dataset harian (day-level) Bike Sharing.
+
+- `hour.csv`  
+  Dataset per jam (hour-level) Bike Sharing.
+
+- `requirements.txt`  
+  Daftar library Python yang dibutuhkan untuk menjalankan notebook dan dashboard.
+---
+
