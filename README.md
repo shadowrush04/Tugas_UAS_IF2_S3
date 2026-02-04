@@ -23,6 +23,8 @@ Proyek ini merupakan analisis data Bike Sharing Dataset menggunakan Python dan S
 
 ---
 
+##Tampilan Dashboard
+
 ## Link Dashboard
 
 Dashboard dapat diakses melalui:
