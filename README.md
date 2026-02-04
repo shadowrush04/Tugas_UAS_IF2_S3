@@ -10,14 +10,19 @@ Proyek ini merupakan analisis data Bike Sharing Dataset menggunakan Python dan S
 - Anggota:
   - 10124044 – Ichza Mutawalli Razzaq  
     (membuat hasil analisis dari perbandingan data, dan pertanyaan 2 di file UAS dan pra UTS)
+    
   - 10124056 – Moch. Albany Alfachrezi Syechan  
     (membuat Streamlit, membuat analisis pertanyaan 3 dan 4 di file pra UTS dan UAS)
+    
   - 10124059 – Yusya Raditya  
     (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra UTS dan UAS)
+    
   - 10124079 – Andi Muhamad Hakim R.M  
     (membuat hasil analisis dari pertanyaan 1 dan saran dari hasil analisis di file pra UTS dan UAS)
+    
   - 10124080 – Advent G. Sihombing  
     (membuat hasil analisis dari pertanyaan 2 dan ringkasan data *overview* di file pra UTS dan UAS)
+    
   - 10124473 – Bayu Ilham Samudra  
     (-)
 
