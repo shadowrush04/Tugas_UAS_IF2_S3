@@ -37,8 +37,8 @@ hour = load_hour()
 with st.sidebar:
     selected = option_menu(
         "Menu",
-        ["Overview",
-         "Kelompok",
+        ["Kelompok",
+         "Overview",
          "P1: Distribusi cnt per jam",
          "P2: Tren 3 bulanan",
          "P3: Rata‑rata per minggu",
@@ -52,9 +52,21 @@ with st.sidebar:
     )
 
 
-#halaman overview
-if selected == "Overview":
-    st.title("Proyek Analisis Data: Bike Sharing Dataset")
+#Identitas kelompok kami
+if selected == "Kelompok":
+    st.title("UAS Analisis Data Bike Sharing Dataset")
+
+    st.subheader("Identitas Kelompok")
+    st.markdown("""
+    - Kelas : IF-2  
+    - Anggota:  
+        - 10124056 – Moch. Albany Alfachrezi Syechan (membuat streamlit,membuat analisis pertanyaan 3 dan 4 di file pra uts dan uas)  
+        - 10124044 – Ichza Mutawalli Razzaq (membuat hasil analisis dari perbandingan data,dan pertanyaan 2 di file uas dan pra uts)  
+        - 10124080 – Advent G. Sihombing (membuat hasil analisis dari pertanyaan 2 dan ringkasan data "overview" di file pra uts dan uas)
+        - 10124079 – Andi Muhamad Hakim R.M (membuat hasil analisi dari pertanyaan 1 dan saran dari hasil analisis di file pra uts dan uas)
+        - 10124059 – Yusya Raditya(membuat (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)  
+        - 10124473 – Bayu Ilham Samudra(-)  
+    """)
 
     st.markdown("""
     Pertanyaan :
@@ -77,21 +89,9 @@ if selected == "Overview":
         st.write(hour.head())
         st.write(hour.describe(include="all"))
 
-#Identitas kelompok kami
-elif selected == "Kelompok":
-    st.title("UAS Analisis Data Bike Sharing Dataset")
-
-    st.subheader("Identitas Kelompok")
-    st.markdown("""
-    - Kelas : IF-2  
-    - Anggota:  
-        - 10124056 – Moch. Albany Alfachrezi Syechan  
-        - 10124044 – Ichza Mutawalli Razzaq  
-        - 10124080 – Advent G. Sihombing  
-        - 10124079 – Andi Muhamad Hakim R.M  
-        - 10124059 – Yusya Raditya  
-        - 10124473 – Bayu Ilham Samudra  
-    """)
+#halaman overview
+elif selected == "Overview":
+st.title("Proyek Analisis Data: Bike Sharing Dataset")
 
 
 
@@ -363,8 +363,9 @@ elif selected == "Saran dari Hasil Analisis":
     with col1:
         st.subheader("")
         st.markdown("""
-        - Ketika jam sibuk tambah unit,dan ketika hujan berikan diskon karena dikondisi itu akan sepi.  
-        - Musim panas dan gugur,perluasan ke area pusat kota,tambah unit,Karena banyak hari libur.  
-        - Musim dingin,akan menurunkan suhu maka gunakan untuk perawatan unit.
+        - Ketika jam sibuk lebih baik tambah unit,dan ketika hujan berikan diskon karena di saat kondisi itu akan sepi  
+        - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
+        - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
