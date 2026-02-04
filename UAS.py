@@ -75,7 +75,8 @@ if selected == "Kelompok":
         - 10124059 – Yusya Raditya(membuat                      
         (membuat hasil analisis dari pertanyaan 5 dan 6 di file pra uts dan uas)
         
-        - 10124473 – Bayu Ilham Samudra                         (-)
+        - 10124473 – Bayu Ilham Samudra                         
+        (-)
         """)
 
 #halaman overview
@@ -374,6 +375,7 @@ elif selected == "Saran dari Hasil Analisis":
         - Musim panas dan gugur kita bisa memperluas unit ke area pusat kota dan tambahkan unit karena di saat itu banyak hari libur.  
         - Musim dingin diakibatkan akan menurunkan suhu maka gunakan untuk perawatan unit karena dikhawatirkan sepi di saat kondisi itu.
         """)
+
 
 
 
